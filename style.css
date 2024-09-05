@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  font-family: 'calibri';
+  align-items: center;
+}
+
+.title-container {
+  background-color: rgb(255, 203, 203);
+  color: rgb(77, 15, 15);
+  margin: auto;
+
+}
+
+.center-title {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 5rem;
+  font-size: 64px;
+  margin: auto;
+}
+
+/* vh - view width and vw view height  */
+
+
+.title-content {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  justify-content: center;
+}
+
+h5 {
+  background-color: rgb(101, 101, 255);
+  padding: 6px 8px;
+  color: white;
+  border-radius: 6px;
+}
+
+.cont {
+  width: 300px;
+  height: 300px;
+  padding: 14px;
+  display: block;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(199, 197, 197);
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.cont-2 {
+  width: 500px;
+  height: 300px;
+  padding: 14px;
+  display: block;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(199, 197, 197);
+  border-radius: 10px;
+}
+
+.cont-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.cont-head-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.cont-details {
+  display: block;
+  padding: 10px;
+  width: 280px;
+  font-size: 20px;
+  color: rgb(153, 148, 148);
+}
+
+.cont-details-2 {
+  display: block;
+  padding: 10px;
+  width: 400px;
+  font-size: 20px;
+  color: rgb(153, 148, 148);
+}
+
+.navbar {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(39, 42, 56);
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0px;
+}
+
+li {
+  padding: 18px;
+}
+
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.page-logo {
+  display: flex;
+  align-items: center;
+}
+
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  border-style: none;
+  border-color: rgb(180, 180, 180);
+  margin: auto;
+  width: 500px;
+  border-radius: 30px;
+}
+
+input {
+  border-style: none;
+  width: 450px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+input[type="text"] {
+  padding-left: 14px;
+  font-size: 18px;
+}
+
+button {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 5px;
+  height: 54px;
+  width: 140px;
+  color: white;
+  background-color: rgb(76, 139, 100);
+  border-style: none;
+  border-width: 1px;
+  border-radius: 30px;
+}
+
+
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
